@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        
+        <label for="method">Preferred Method of Communication:</label>
+        <select id="method" name="method">
+            <option>Email</option>
+            <option>Call</option>
+            <option>Text</option>
+        <label for="method"><abbr title="required" aria-label="required">*</abbr></label>
+        
+        <button>Send</button>
+    </form>
+</body>
+</html>
+
+
+<p>
+    <label for="phone">Phone Number:</label>
+(<input id="phone" name="tel1" type="tel" pattern="[0-9]{3}" aria-label="3-digit area code" size="2"/>) -
+<input id="phone" name="tel2" type="tel" pattern="[0-9]{3}" aria-label="3-digit prefix" size="2"/> -
+<input id="phone" name="tel3" type="tel" pattern="[0-9]{4}" aria-label="4-digit number" size="3"/>
+    </label>>
+</p>
+<p>
+    <label for="message">Message:</label>
+     <textarea id="message" cols="40" rows="5" name="message"></textarea>
+    <label for="message"><abbr title="required" aria-label="required">*</abbr></label>
+</p>
