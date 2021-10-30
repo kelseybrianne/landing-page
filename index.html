@@ -38,28 +38,28 @@
             <p>I am happy to answer any business related inquiries. Fill out the 
             form and I'll be in touch as soon as possible.</p>
             <form>
-                <p>
-                    <label for="name">Name:</label>
-                    <input id="name" type="text" name="name">
+                <div>
+                    <label for="name">Name:</label> <br>
+                    <input class="wide-input" id="name" type="text" name="name">
                     <label for="name"><abbr title="required" aria-label="required">*</abbr></label>
-                </p>
-                <p>
-                    <div><label for="email">Email Address:</label>
-                    <input id="email" type="text" name="email">
+                </div>
+                <div>
+                    <div><label for="email">Email Address:</label><br>
+                    <input class="wide-input" id="email" type="text" name="email">
                     <label for="email"><abbr title="required" aria-label="required">*</abbr></label>
-                </p>
-                <p>
-                    <label for="phone">Phone Number:</label>
+                    </div>
+                <div>
+                    <label for="phone">Phone Number:</label><br>
                 (<input id="phone" name="tel1" type="tel" pattern="[0-9]{3}" aria-label="3-digit area code" size="2"/>) -
                 <input id="phone" name="tel2" type="tel" pattern="[0-9]{3}" aria-label="3-digit prefix" size="2"/> -
                 <input id="phone" name="tel3" type="tel" pattern="[0-9]{4}" aria-label="4-digit number" size="3"/>
                     </label>>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label for="message">Message:</label>
-                     <textarea id="message" cols="40" rows="5" name="message"></textarea>
+                     <textarea class="wide-input" id="message" cols="40" rows="5" name="message"></textarea>
                     <label for="message"><abbr title="required" aria-label="required">*</abbr></label>
-                </p>
+                </div>
                 
                 <div>
                     <button>Send</button>
