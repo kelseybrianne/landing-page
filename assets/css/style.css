@@ -40,15 +40,22 @@ nav li {
 
 main {
     background-color: white;
-    margin: 10px 120px;
+    margin: 10px 150px;
     padding: 10px;
     text-align: center;
     width: 70%;
     z-index: 2;
+    border: 10px solid aliceblue
 }
 
 main h1, h2 {
     color: rgb(59, 59, 59);
+}
+
+p {
+    width: 80%;
+    padding: 10px 70px;
+    text-align: center;
 }
 
 form {
@@ -58,7 +65,7 @@ form {
 
 .portfolio {
     margin: 50px;
-    padding: 600px 100px;
+    padding: 400px 20px;
     border: 2px solid gray
 }
 
