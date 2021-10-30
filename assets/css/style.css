@@ -5,7 +5,7 @@
 
 html {
     background-image: url("IMG_0843.JPG");
-    background-color: rgb(180, 200, 218);
+    background-color: rgb(155, 172, 187);
 }
 
 header {
@@ -45,7 +45,7 @@ main {
     text-align: center;
     width: 70%;
     z-index: 2;
-    border: 10px solid aliceblue
+    border: 15px solid aliceblue
 }
 
 main h1, h2 {
